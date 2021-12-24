@@ -10,3 +10,4 @@ main.ml
 main.native
 mirage-unikernel-hello-unix.opam
 .mirage.config
+src/Makefile

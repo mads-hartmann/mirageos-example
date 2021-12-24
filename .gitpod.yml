@@ -1,6 +1,18 @@
 image:
   file: .gitpod.Dockerfile
 
+tasks:
+  - name: Configure Mirage
+    init: |
+      eval $(opam env)
+      make configure
+  - name: Compile unikernel
+    init: |
+      eval $(opam env)
+      make build
+  - name: Shell
+    command: eval $(opam env)
+
 vscode:
   extensions:
     - ocamllabs.ocaml-platform

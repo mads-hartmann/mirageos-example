@@ -7,4 +7,4 @@ USER gitpod
 
 # Disabling sandboxing as we're already running inside of a container when
 # using Gitpod as our development environment.
-RUN opam init --yes --disable-sandboxing && opam install --yes mirage ocaml-lsp-server
+RUN opam init --yes --disable-sandboxing && opam install --yes mirage ocaml-lsp-server depext
