@@ -19,3 +19,7 @@ The .gitpod.Dockerfile configures a development environment with OPAM and releve
 The inital example was taken from [mirage/mirage-skeleton](https://github.com/mirage/mirage-skeleton) and modified slightly; primarily reducing the scope of the Makefile (it only needs to build one unikernel)
 
 See the official [getting started](https://mirage.io/wiki/hello-world) documentation
+
+## TODO
+
+- Currently ocaml-lsp doesn't work correctly for the unikernel.ml file. Works fine for config.ml though.
