@@ -17,3 +17,5 @@ The .gitpod.Dockerfile configures a development environment with OPAM and releve
 ## Example Unikernel
 
 The inital example was taken from [mirage/mirage-skeleton](https://github.com/mirage/mirage-skeleton) and modified slightly; primarily reducing the scope of the Makefile (it only needs to build one unikernel)
+
+See the official [getting started](https://mirage.io/wiki/hello-world) documentation
