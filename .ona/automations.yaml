@@ -1,0 +1,20 @@
+tasks:
+  configure:
+    name: Configure Mirage
+    description: Configure the MirageOS unikernel for the unix target.
+    command: |
+      eval $(opam env)
+      make configure
+    triggeredBy:
+      - postDevcontainerStart
+
+  build:
+    name: Build unikernel
+    description: Install dependencies and build the MirageOS unikernel.
+    command: |
+      eval $(opam env)
+      make build
+    triggeredBy:
+      - postDevcontainerStart
+    dependsOn:
+      - configure

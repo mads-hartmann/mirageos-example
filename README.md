@@ -8,7 +8,7 @@ If you're only interested in OCaml and not MirageOS see [gitpod-io/template-ocam
 
 You get a full-blown developer environment with code-completion, navigation, automatic formatting, and everything.
 
-The .gitpod.Dockerfile configures a development environment with OPAM and relevenat OPAM pacakges installed (mirage, https://github.com/ocaml/ocaml-lsp) and the .gitpod.yml contains instructions to ensure that you're ready to code as soon as the workspace starts.
+The `.devcontainer` configures a development environment with OPAM and relevant OPAM packages installed (mirage, https://github.com/ocaml/ocaml-lsp) and `.ona/automations.yaml` contains instructions to ensure that you're ready to code as soon as the environment starts.
 
 - ocamllsp
 - ocamlformat

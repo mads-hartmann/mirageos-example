@@ -1,13 +1,15 @@
-myocamlbuild.ml
+# OCaml / dune build output
 _build/
-dune
-dune-project
-dune.build
-dune.config
-hello
-key_gen.ml
-main.ml
-main.native
-mirage-unikernel-hello-unix.opam
-.mirage.config
+*.install
+
+# Mirage 4.x generated files (mirage configure)
 src/Makefile
+src/dune
+src/dune-project
+src/dune-workspace
+src/dune.build
+src/dune.config
+src/dist/
+src/duniverse/
+src/mirage/
+src/.mirage.config
